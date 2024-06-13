@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+  font-family: Roboto Slab, serif;
+}
+
+h1 {
+  color: #4f4cee;
+  text-align: center;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.text-black {
+  color: #1b1b25 !important;
+}
+.login {
+  color: #4f4cee;
+  border-radius: 10px;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  width: 8rem;
+  text-align: center;
+  border: 1px solid #4f4cee;
+}
+
+#placeholder::placeholder {
+  color: #4f4cee;
+  opacity: 1;
+  font-weight: 500;
+}

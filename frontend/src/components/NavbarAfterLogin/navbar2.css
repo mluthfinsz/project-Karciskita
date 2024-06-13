@@ -1,0 +1,41 @@
+.ml-auto {
+  margin-right: 20px; /* Sesuaikan jarak sesuai kebutuhan */
+}
+
+.mx-auto {
+  margin-left: 20px;
+}
+
+/* Gaya untuk menambahkan jarak antara tombol */
+.signup-btn {
+  margin-right: 10px; /* Sesuaikan jarak sesuai kebutuhan */
+}
+
+/* navbar.css */
+
+/* Gaya untuk tautan menu agar berada dekat dengan tombol */
+.nav-link {
+  margin-right: 20px; /* Sesuaikan jarak sesuai kebutuhan */
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Gaya untuk tombol agar berada dekat dengan tautan menu */
+.signup-btn,
+.login-btn {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight: medium; /* Sesuaikan jarak sesuai kebutuhan */
+}
+
+/* navbar.css */
+.custom-navbar {
+  background-color: #ffffff; /* Ganti dengan warna yang diinginkan */
+}
+
+.navbar-collapse {
+  margin-left: 200px; /* Menyebabkan menu untuk berada di sebelah kanan */
+}

@@ -1,0 +1,62 @@
+.border.p-4 {
+  width: 35%; /* Ubah ukuran rectangle sesuai kebutuhan */
+  margin: 0 auto; /* Mengatur agar rectangle berada di tengah halaman */
+  height: auto;
+}
+.create-event-input {
+  margin-top: 10px; /* Tambahkan jarak atas */
+  margin-bottom: 10px; /* Tambahkan jarak bawah */
+}
+.create-event-input .text-muted {
+  font-size: 10px !important; /* Mengatur ukuran font */
+  color: red !important; /* Mengatur warna teks menjadi merah */
+  margin-top: 5px !important; /* Mengatur spasi atas */
+  margin-bottom: 5px !important;
+}
+
+.border {
+  background-color: white;
+  border: 1px solid black !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+}
+.create-event-input label {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: medium;
+  color: #000000; /* Warna teks */
+}
+/* createevent.css */
+.container-margin-top {
+  margin-top: 30px !important; /* Adjust this value as needed */
+}
+/* createevent.css */
+.text-center {
+  text-align: center;
+}
+
+/* Style for h1 */
+h1 {
+  font-size: 48px !important;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+/* createevent.css */
+.button-center {
+  text-align: center;
+}
+
+/* Style for button */
+.btn-primary {
+  font-family: "Roboto Slab", sans; /* Ganti dengan font yang diinginkan */
+  font-size: 12px; /* Sesuaikan ukuran font */
+  font-weight: medium;
+  width: 50%;
+}
+.event-image {
+  display: block;
+  margin: 40px auto 50px;
+  max-width: 50%;
+  height: auto;
+}

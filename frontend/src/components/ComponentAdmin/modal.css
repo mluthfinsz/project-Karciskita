@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body,
+#root {
+  background-color: #fafafa;
+  font-family: "Open Sans Hebrew", sans-serif;
+}
+
+/*modal add-category*/
+.tittle-modal {
+    background-color: #4f4cee;
+    color: #f2f2f2;
+    border-radius: 6px;
+  }
+  
+  .form-control {
+    border-width: 1px; /* Lebar border 2px */
+    border-color: black;
+  }
+
+  .button-modal {
+    font-size: 15px;
+    background-color: #4f4cee;
+  }
+
+  .special-text {
+    color: #4f4cee; 
+    font-weight: bold; 
+    font-size: 32px; 
+    padding: 10px 20px;
+    border: 2px solid #4f4cee; 
+    border-radius: 5px; 
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 3px 0px rgba(0,34,186,1);
+    display: inline-block;
+  }
+
+  .button-close {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .no-button {
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: #4f4cee;
+  }
+  
+  .yes-button {
+    width: 100px;
+  }
+  
+  .yes-button.btn-outline-primary {
+    border-color: #4f4cee;
+    color: #4f4cee;
+    background-color: #f2f2f2;
+  }
+  
+  .yes-button.btn-outline-primary:active,
+  .yes-button.btn-outline-primary:focus,
+  .yes-button.btn-outline-primary:hover {
+    background-color: #4f4cee;
+    color: white;
+    border-color: #4f4cee;
+  }

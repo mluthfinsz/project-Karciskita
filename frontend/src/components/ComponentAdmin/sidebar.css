@@ -1,0 +1,82 @@
+/* sidebar.css */
+@media (max-width: 991.98px) { /* atur tata letak untuk layar yang lebih kecil dari ukuran medium */
+  .menu {
+    display: none; /* sembunyikan sidebar */
+  }
+}
+
+@media (min-width: 992px) { /* atur tata letak untuk layar yang lebih besar dari ukuran medium */
+  .menu {
+    display: block; /* tampilkan sidebar */
+  }
+
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #4f4cee;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+.menu-list li {
+  position: relative;
+  margin-bottom: 10px;
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.menu-list li:hover {
+  color: #0022ba; 
+}
+
+.menu-list li a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.menu-list li:hover a {
+  color: inherit;
+}
+
+li .icon-sidebar {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.sidebar-section {
+  padding-bottom: 1rem;
+}
+
+.sidebar-section + .sidebar-section {
+  border-top: 0.5px solid #fafafa;
+  padding-top: 1rem;
+}
+
+
+/*navbar*/
+.navbar-admin {
+  padding: 8px 16px;
+  background-color: #4f4cee;
+}
+
+.navbar-admin-img {
+  max-width: 250px;
+}
+
+.navbar-admin-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  color: white;
+}

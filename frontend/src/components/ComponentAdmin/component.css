@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body,
+#root {
+  background-color: #fafafa;
+  font-family: "Open Sans Hebrew", sans-serif;
+}
+
+/*profil*/
+.col-profile {
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.profile-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+.username {
+  margin-left: 10px;
+  color: #1b1b25;
+  margin-right: 20px;
+}
+
+/*chart*/
+.chart-container {
+  width: 70%; 
+  margin: auto;
+  height: auto;
+  overflow: hidden; 
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.chart-container canvas {
+  border-radius: 11px; 
+}
+
